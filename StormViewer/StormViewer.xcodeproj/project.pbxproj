@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ACBDEFBE2541CCA200939AC4 /* Product1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Product1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBDEFBE2541CCA200939AC4 /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBDEFC12541CCA200939AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBDEFC32541CCA200939AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACBDEFC52541CCA200939AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		ACBDEFB52541CCA100939AC4 = {
 			isa = PBXGroup;
 			children = (
-				ACBDEFC02541CCA200939AC4 /* Product1 */,
+				ACBDEFC02541CCA200939AC4 /* StormViewer */,
 				ACBDEFBF2541CCA200939AC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		ACBDEFBF2541CCA200939AC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACBDEFBE2541CCA200939AC4 /* Product1.app */,
+				ACBDEFBE2541CCA200939AC4 /* StormViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACBDEFC02541CCA200939AC4 /* Product1 */ = {
+		ACBDEFC02541CCA200939AC4 /* StormViewer */ = {
 			isa = PBXGroup;
 			children = (
 				ACBDEFC12541CCA200939AC4 /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				ACBDEFCF2541CCA400939AC4 /* Info.plist */,
 				ACBDEFD72541CD7900939AC4 /* Content */,
 			);
-			path = Product1;
+			path = StormViewer;
 			sourceTree = "<group>";
 		};
 		ACBDEFD72541CD7900939AC4 /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACBDEFBD2541CCA200939AC4 /* Product1 */ = {
+		ACBDEFBD2541CCA200939AC4 /* StormViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACBDEFD22541CCA400939AC4 /* Build configuration list for PBXNativeTarget "Product1" */;
+			buildConfigurationList = ACBDEFD22541CCA400939AC4 /* Build configuration list for PBXNativeTarget "StormViewer" */;
 			buildPhases = (
 				ACBDEFBA2541CCA200939AC4 /* Sources */,
 				ACBDEFBB2541CCA200939AC4 /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Product1;
+			name = StormViewer;
 			productName = Product1;
-			productReference = ACBDEFBE2541CCA200939AC4 /* Product1.app */;
+			productReference = ACBDEFBE2541CCA200939AC4 /* StormViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ACBDEFB92541CCA200939AC4 /* Build configuration list for PBXProject "Product1" */;
+			buildConfigurationList = ACBDEFB92541CCA200939AC4 /* Build configuration list for PBXProject "StormViewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACBDEFBD2541CCA200939AC4 /* Product1 */,
+				ACBDEFBD2541CCA200939AC4 /* StormViewer */,
 			);
 		};
 /* End PBXProject section */
@@ -340,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2XMZSH45N;
-				INFOPLIST_FILE = Product1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StormViewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2XMZSH45N;
-				INFOPLIST_FILE = Product1/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StormViewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACBDEFB92541CCA200939AC4 /* Build configuration list for PBXProject "Product1" */ = {
+		ACBDEFB92541CCA200939AC4 /* Build configuration list for PBXProject "StormViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACBDEFD02541CCA400939AC4 /* Debug */,
@@ -383,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACBDEFD22541CCA400939AC4 /* Build configuration list for PBXNativeTarget "Product1" */ = {
+		ACBDEFD22541CCA400939AC4 /* Build configuration list for PBXNativeTarget "StormViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACBDEFD32541CCA400939AC4 /* Debug */,
