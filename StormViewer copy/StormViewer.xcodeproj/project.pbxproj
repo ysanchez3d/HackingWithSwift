@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC122960259A496A00B147D3 /* StormCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12295F259A496A00B147D3 /* StormCellCollectionViewCell.swift */; };
 		ACBDEFC22541CCA200939AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDEFC12541CCA200939AC4 /* AppDelegate.swift */; };
 		ACBDEFC42541CCA200939AC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDEFC32541CCA200939AC4 /* SceneDelegate.swift */; };
 		ACBDEFC62541CCA200939AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDEFC52541CCA200939AC4 /* ViewController.swift */; };
@@ -28,7 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC12295F259A496A00B147D3 /* StormCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		ACBDEFBE2541CCA200939AC4 /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBDEFC12541CCA200939AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBDEFC32541CCA200939AC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				ACBDEFC52541CCA200939AC4 /* ViewController.swift */,
 				ACBDEFED2542422500939AC4 /* DetailViewController.swift */,
 				ACBDEFC72541CCA200939AC4 /* Main.storyboard */,
-				AC12295F259A496A00B147D3 /* StormCellCollectionViewCell.swift */,
 				ACBDEFCA2541CCA400939AC4 /* Assets.xcassets */,
 				ACBDEFCC2541CCA400939AC4 /* LaunchScreen.storyboard */,
 				ACBDEFCF2541CCA400939AC4 /* Info.plist */,
@@ -192,7 +189,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBDEFC62541CCA200939AC4 /* ViewController.swift in Sources */,
-				AC122960259A496A00B147D3 /* StormCellCollectionViewCell.swift in Sources */,
 				ACBDEFC22541CCA200939AC4 /* AppDelegate.swift in Sources */,
 				ACBDEFC42541CCA200939AC4 /* SceneDelegate.swift in Sources */,
 				ACBDEFEE2542422500939AC4 /* DetailViewController.swift in Sources */,
@@ -349,7 +345,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yandrisanchez.StormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yandrisanchez.Product1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -368,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yandrisanchez.StormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yandrisanchez.Product1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     var letterButtons = [UIButton]()
     var tappedLetterButtons = [UIButton]()
     var correctAnswer = ""
-    var usedCharacters = Set<String>()
     var currentAnswer: UITextField!
     var triesLeft = 7 {
         didSet {
